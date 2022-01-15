@@ -1,0 +1,5 @@
+for i,v in pairs(workspace.Statues.StatueOfBoxer:GetDescendants()) do
+if v:IsA("ClickDetector") then
+fireclickdetector(v)
+end
+end
